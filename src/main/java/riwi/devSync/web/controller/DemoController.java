@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1")
 public class DemoController {
-    @PostMapping("demo")
+    @PostMapping("/demo")
     public String demo() {
         return "Welcome to this endpoint!";
     }
