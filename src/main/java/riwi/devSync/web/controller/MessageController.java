@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import riwi.devSync.domain.brookcast.Message;
 
 @Controller
+//! I hope to create a microservice, because I have problems with the dependencies right now.
 public class MessageController {
     @MessageMapping("/sent")
     @SendTo("/topic/message")
