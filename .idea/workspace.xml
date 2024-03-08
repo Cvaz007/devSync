@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13584e61-8f60-470c-ac81-c9fd48b0ec13" name="Changes" comment="Create the rest of services Post and profile. This information will show in the frontEnd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/repository/ProfileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/ProfileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/crud/PostCrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/crud/ProfileCrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/DAO2faService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/SMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/TwoFactorServiceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/dto/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,6 +66,9 @@
         <option name="mavenHome" value="Use Maven wrapper" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,

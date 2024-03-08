@@ -37,6 +37,10 @@ public class User implements UserDetails {
     @Column(nullable = false)
     private String lastname;
     private String firstname;
+    @Column(nullable = false)
+    private String phone;
+    private String code2fa;
+    private String expireTime2fa;
     private String country;
     private String password;
     @Enumerated(EnumType.STRING)
