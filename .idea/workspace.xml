@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13584e61-8f60-470c-ac81-c9fd48b0ec13" name="Changes" comment="sockets en">
+    <list default="true" id="13584e61-8f60-470c-ac81-c9fd48b0ec13" name="Changes" comment="Create the msm config. I need to create the logic for compare the code in my database and the user code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/DAO2faService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/DAO2faService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/SMSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/SMSService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/TwoFactorServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/TwoFactorServiceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/security" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +64,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -78,7 +86,7 @@
     &quot;Maven.devSync [deploy].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/web-socket&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/msm-text&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/sebas/Documents/Codigo/devSync&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
@@ -103,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DevSyncApplication" />
         <item itemvalue="Application.DevSyncApplication" />
       </list>
     </recent_temporary>
@@ -140,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709731767467</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Is impossible to do a msm-text because I have conflict with the dependencies">
+      <option name="closed" value="true" />
+      <created>1709847576623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709847576623</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create the msm config. I need to create the logic for compare the code in my database and the user code">
+      <option name="closed" value="true" />
+      <created>1709917881107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709917881107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,17 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="idk what I update" />
     <MESSAGE value="sockets en" />
-    <option name="LAST_COMMIT_MESSAGE" value="sockets en" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/JwtService.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Is impossible to do a msm-text because I have conflict with the dependencies" />
+    <MESSAGE value="Create the msm config. I need to create the logic for compare the code in my database and the user code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the msm config. I need to create the logic for compare the code in my database and the user code" />
   </component>
 </project>
