@@ -24,4 +24,12 @@ public class TwoFactorServiceController {
         daoService.update2faProperties(userId, code);
         return new ResponseEntity<>(HttpStatus.OK);
     }
+    @PutMapping("/verificationCode/{userId}/{code}")
+    public ResponseEntity<Object> verificationCode(@PathVariable Integer userId,@PathVariable String code) {
+        boolean isValidCode = daoService.checkCode(userId,code);
+        if (isValidCode)
+            return new ResponseEntity<>(HttpStatus.OK);
+        else
+            return new ResponseEntity<>(HttpStatus.FORBIDDEN);
+    }
 }

@@ -8,7 +8,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class SMSService {
     private final static String ACCOUNT_SID = "AC59b7f0109c94466d3e3fa3b6d2606a08";
-    private final static String AUTH_ID = "400dc96245bb9deb84ccc911780bfa36";
+    //This token can expired, for this reason I always need when I start the application
+    private final static String AUTH_ID = "d39fe08fd9684b33f7b86ad3898760c1";
 
     static {
         Twilio.init(ACCOUNT_SID, AUTH_ID);

@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13584e61-8f60-470c-ac81-c9fd48b0ec13" name="Changes" comment="Create the rest of services Post and profile. This information will show in the frontEnd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/DAO2faService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/TwoFactorServiceController.java" afterDir="false" />
+    <list default="true" id="13584e61-8f60-470c-ac81-c9fd48b0ec13" name="Changes" comment="Create the msm config. I need to create the logic for compare the code in my database and the user code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/dto/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/DAO2faService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/DAO2faService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/SMSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/domain/service/SMSService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/persistence/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/TwoFactorServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/riwi/devSync/web/controller/TwoFactorServiceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709847576623</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create the msm config. I need to create the logic for compare the code in my database and the user code">
+      <option name="closed" value="true" />
+      <created>1709917881107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709917881107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +183,7 @@
     <MESSAGE value="idk what I update" />
     <MESSAGE value="sockets en" />
     <MESSAGE value="Is impossible to do a msm-text because I have conflict with the dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Is impossible to do a msm-text because I have conflict with the dependencies" />
+    <MESSAGE value="Create the msm config. I need to create the logic for compare the code in my database and the user code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the msm config. I need to create the logic for compare the code in my database and the user code" />
   </component>
 </project>
